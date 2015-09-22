@@ -27,6 +27,7 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain.
 
 Check the README.txt file for further details about this dataset.
+
 ##Attribute Information:
 
 For each record in the dataset it is provided: 
@@ -35,15 +36,15 @@ For each record in the dataset it is provided:
 - A 561-feature vector with time and frequency domain variables. 
 - Its activity label. 
 - An identifier of the subject who carried out the experiment.
+
 ## Requirement
 Create one R script called run_analysis.R that does the following. 
-*Merges the training and the test sets to create one data set.
-*Extracts only the measurements on the mean and standard deviation for each measurement. 
-*Uses descriptive activity names to name the activities in the data set
-*Appropriately labels the data set with descriptive variable names. 
-*From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+-Merges the training and the test sets to create one data set.
+-Extracts only the measurements on the mean and standard deviation for each measurement. 
+-Uses descriptive activity names to name the activities in the data set
+-Appropriately labels the data set with descriptive variable names. 
+-From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-Good luck!
 
 
 
